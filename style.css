@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+body{
+background-color:rgb(228, 219, 205);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(91, 70, 182); */
+  padding-right: 1em;
+  align-items: center;
+  height: 12vh;
+  background: #8e9eab; 
+  border-radius: 5px;
+  border-color: aquamarine;
+}
+
+.nav{
+display: flex;
+gap: 20px;
+
+}
+.img-nav {
+  display: flex;
+  height: 10vh; 
+  width:100px;
+  padding-left: 6vh;
+}
+
+.links-nav{
+display: flex;
+text-decoration: dashed;
+justify-content: space-between;
+gap: 20px;
+color:#ffebcc;
+font-size: 18px;
+font-weight: 500;}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#herocard{
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 70px 0;
+}
+
+.text{
+padding: 18vh; 
+display: flex;
+text-align:center;
+text-decoration: dotted;
+text-decoration-color: black;
+text-shadow: #8e9eab;
+justify-content: center;
+font-size: 14px;
+}
+
+.sectionhero{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+}
+.sectionhero h1{
+  font-size: 48px;
+  font-weight: 900;
+}
+.sectionhero p{
+  font-size: 14px;
+  width: 70%;
+}
+.sectionhero span{
+font-weight: 800;
+  
+}
+.sectionhero a {
+  background:rgb(166, 185, 94);
+  color:#ffebcc;
+  border-radius: 15px;
+  padding: 15px 25px;
+  font-size: 14px;
+  text-decoration: none;
+
+  
+}
+.linkshero{
+display: flex;
+padding-top: 10px;
+gap: 50px;
+justify-content: center;
+align-items: center;
+}
+
+.sectioncard{
+  display: flex;
+  height: 600px; 
+  width: 400px;
+  padding: 20px;
+  border-radius: 30px;
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+  img{
+    border-radius: 10px;
+
+}
+
+#textsection{
+  display: flex;
+  justify-content: center;
+  background-color: #c2c7cc;
+  margin: 0px 25px 0px;
+  align-items: center;
+  border-radius: 100px;
+
+}
+
+
+
